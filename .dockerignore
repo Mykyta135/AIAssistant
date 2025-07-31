@@ -1,0 +1,15 @@
+# Git and Docker related files
+.git
+.gitignore
+Dockerfile
+.dockerignore
+
+# Local development files and sensitive information
+.env
+README.md
+
+# Node.js dependencies (will be installed inside the container)
+node_modules
+
+# Build output (will be generated inside the container)
+dist
