@@ -2,6 +2,8 @@
 
 A small NestJS service for trying out assistant prompts against the OpenAI API: send a plain prompt, test an assistant persona with a conversation history, or tune a single prompt with explicit model parameters.
 
+> **Archived (November 2026).** A local experiment, not maintained and not meant to be deployed: the endpoints have no auth or rate limit and accept any model name and token limit, so anyone who can reach the service spends the owner's OpenAI key.
+
 | Endpoint | What it does |
 |---|---|
 | `POST /chatgpt/prompt` | Send a simple prompt, get the text answer |
